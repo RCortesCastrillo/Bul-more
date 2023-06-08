@@ -1,0 +1,49 @@
+tienes una memoria de dori
+porque te hace falta practica y mas practica 
+
+
+en primer lugar pondremos el comando git init
+y vamos a entender algunas particularidades 
+
+todos los comandos de git iniciaran con la palabra clave git 
+de esta forma podremos diferenciar cuando un comando es de git 
+y cuando no 
+
+al realizar el comando git init automatimaticamente la carpeta 
+donde nos encontrabamos pocisionados desde la terminal se convirtio en nuestro nuevo repositorio local 
+en otras palabras el almacen donde vamos a guardar todos nuestros archivos de codigo e inclusive otras carpetas 
+
+es por eso que nos aparece el mensaje de que se inicio un repositorio  
+
+
+ahora la direccion no termina en el nombre de nuestra carpeta ahora 
+termina con la palabra (master )
+esta palabra nos ayuda a reconocer que ahora esta carpeta es un nuevo repositorio local 
+
+
+Tambien podemos hacer lo siguiente ( ls -a) la opcion 'a' nos permite ver archivos ocultos 
+
+ahora podemos ver que se encuentra una carpeta llamada .git 
+esta carpeta es la que se encargara de llevar a cabo todo el seguimiento de git 
+y nunca debe ser borrada 
+
+
+ahora podemos ver el git status 
+
+nuestro primer repositorio fue creado y todos los archivos y carpetas que se encuentran alli 
+ya sean nuevos o existentes estan en una de las fases o estado de seguimiento de git 
+
+
+
+¿QUE ES UN COMMIT?
+es una captura instantanea de los cambios preparados en ese momento del proyecto 
+las instantaneas confirmadas pueden considerarse como versiones seguras de un proyecto . 
+git no las cambiara nunca a no ser que nosotros lo pidamos expresamente 
+
+en resumen guarda una foto del estado de los archivos y carpetas del repositorio local 
+al  momento de ser tomada y para hacer este seguimiento de esta forma guardamos el estado actual de 
+nuestro proyecto para volver a visitarlo de ser necesario y mantenerlo a lo largo del tiempo 
+
+¿como realizar nuestro commit?
+ vamos agregar unicamente los archivos que queremos guardar en esta foto 
+ los commits siempre se haran sobre archivos  
